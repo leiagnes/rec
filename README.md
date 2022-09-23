@@ -1,7 +1,7 @@
 # Music Recommendation System
 Authors: Agnes Lei, Leo Rettich, Wellhöfer Patricia <br><br>
 Completed in March 2022<br><br>
-Dataset:<br>
+<b>Dataset</b>:<br>
 - freely accessible on https://www.kaggle.com/c/dsg17-online-phase/overview
 - from Deezer, a French music streaming service
 - 7,558,834 observations of 15 variables (genre_id, ts_listen, media_id, album_id, 
@@ -9,12 +9,12 @@ context_type, release_date, platform_name, platform_family, media_duration,
 listen_type, user_gender, user_id, artist_id, user_age, is_listened).
 <br>
 
-Models:<br>
+<b>Models</b>:<br>
 - Three different models: content-based (item-based), collaborative filtering (user-based) and matrix factorization are used<br>
 - The purpose is to predict whether users listened to the track proposed to them or not
 <br>
 
-Results:<br><br>
+<b>Results</b>:<br><br>
 The results shown in this section refer to the test dataset, which was build based on the full data set. The test data set consists of 20% of all observations. 
 The table below shows all the results of the accurracy metrics summarized for each of our models.<br>
 <img src="https://github.com/leiagnes/rec/blob/main/models_performance.jpg" height="100"><br><br>
